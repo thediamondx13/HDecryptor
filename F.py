@@ -7,6 +7,7 @@ except:
     print('wrong file name')
     for _ in range(5,0,-1):
         print(f'exit in {_} seconds')
+        time.sleep(1)
     quit()
 passwd = [g.strip('\n') for g in pas]
 pas.close()
