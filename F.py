@@ -44,11 +44,13 @@ for i in wrd:
         if len(passwd) == 0:
             allowbreak = True
 wrd.close()
+for end in passwd:
+    print()
+    print(f'{end} : No results')
+    print()
 for end in decrypted:
     print()
     print(end)
     print()
-
-
 print('--->  finished  <---')
 time.sleep(999)
